@@ -1,0 +1,44 @@
+.menu-item{
+    display: flex;
+    gap: 2rem;
+    max-width: 48%;
+}
+
+.menu-item-img{
+    width: 220px;
+    height: 140px;
+    border: solid 4px var(--clr-light-brown) ;
+}
+.menu-item-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.menu-item-name{
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.menu-item-price{
+    color: var(--clr-light-brown);
+}
+
+.menu-item-description{
+    border-top: black 1px dotted;
+    padding-top: 1.5rem;
+    color: rgb(85, 84, 84);
+}
+
+.menu-item-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.menu-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
